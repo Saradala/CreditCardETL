@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Staging_DB"
+  DTS:DTSID="{7AA2EF94-E429-432F-A29E-A0815EC83A6F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=CreditCardStaging;Provider=MSOLEDBSQL19.1;Integrated Security=SSPI;Trust Server Certificate=True;Use FMTONLY=False;Application Name=SSIS-CreditCardETL-{7AA2EF94-E429-432F-A29E-A0815EC83A6F}localhost.CreditCardStaging1;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

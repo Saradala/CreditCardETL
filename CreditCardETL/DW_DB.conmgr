@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DW_DB"
+  DTS:DTSID="{0DC479B8-9FAC-4AFB-9466-E4D248D96EB6}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=CreditCardDW;Provider=MSOLEDBSQL19.1;Integrated Security=SSPI;Trust Server Certificate=True;Application Name=SSIS-CreditCardETL-{0DC479B8-9FAC-4AFB-9466-E4D248D96EB6}localhost.CreditCardDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
