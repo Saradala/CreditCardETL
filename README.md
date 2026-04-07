@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection Data Warehouse
 
-A SQL Server data warehouse built for the IT3021 Data Warehousing and Business Intelligence module.
+A SQL Server data warehouse built for the Data Warehousing and Business Intelligence module.
 
 ## Overview
 Star schema dimensional model built on a 700,000-record credit card transaction dataset (2019).
